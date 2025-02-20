@@ -1,0 +1,50 @@
+= Bman-64
+
+== Dev
+
+=== Prerequisites
+
+This project requires the following:
+
+* link:https://theweb.dk/KickAssembler/Main.html[Kick Assembler]
+* link:https://vice-emu.sourceforge.io/[VICE]
+
+The *Makefile* assumes *kickass.jar* is in the *tools/* dir.
+
+==== Linux
+
+.Arch
+[source,bash]
+----
+sudo pacman -S vice jre-openjdk-headless
+----
+
+=== Building
+
+.Build
+[source,bash]
+----
+make
+----
+
+.Clean
+[source,bash]
+----
+make clean
+----
+
+.Run
+[source,bash]
+----
+make run
+----
+
+.Debug
+[source,bash]
+----
+make debug
+----
+
+== Play
+
+Uses joystick in port 2.

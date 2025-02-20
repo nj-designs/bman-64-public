@@ -1,0 +1,2 @@
+ll "bman-64.vs"
+bk .start

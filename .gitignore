@@ -1,0 +1,8 @@
+*.dump
+*.prg
+*.sym
+*.vs
+**/*.ods~
+**/*.ods#
+Null
+docs/
